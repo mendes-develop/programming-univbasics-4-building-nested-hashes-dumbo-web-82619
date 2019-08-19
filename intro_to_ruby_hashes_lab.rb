@@ -15,9 +15,7 @@ def monopoly_with_second_tier
 	  :railroads => {}
 	}
 	
-	hash[:railroads] = {
-	  :pieces => {}
-	}
+	hash[1] = :pieces
 end
 
 def monopoly_with_third_tier
